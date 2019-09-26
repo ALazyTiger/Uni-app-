@@ -1,0 +1,36 @@
+
+page {
+		height: auto;
+		min-height: 100%;
+}
+.uni-margin-wrap {
+  	width:690rpx;
+}
+.swiper {
+  	height: 300rpx;
+}
+.swiper-item {
+  	display: block;
+  	height: 300rpx;
+  	line-height: 300rpx;
+  	text-align: center;
+}
+.swiper-list {
+  	margin-top: 40rpx;
+  	margin-bottom: 0;
+}
+.uni-common-mt{
+  	margin-top:60rpx;
+  	position:relative;
+}
+.uni-card {
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+}
+.uni-list:after {
+		height: 0;
+}
+.uni-list:before {
+		height: 0;
+}
+

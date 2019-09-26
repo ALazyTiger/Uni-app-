@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/component",
+    "pages/index/news",
+    "pages/index/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/index/component",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "产品中心"
+      },
+      {
+        "pagePath": "pages/index/news",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "商务合作"
+      },
+      {
+        "pagePath": "pages/index/about",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
